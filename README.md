@@ -1,1 +1,1 @@
-# Interactive-Image-Gallery
+# Interactive-Image-Gallery-task
