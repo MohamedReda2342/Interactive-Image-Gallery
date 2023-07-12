@@ -10,7 +10,19 @@
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
 <h2 style="text-align:center"> Image Gallery</h2>
 <br>
+<!-- search bar -->
+<!-- #region -->
+<div class="container">
+  <div class="row">
+      <div class="col-md-5 mx-auto">
+          <div class="input-group">
+              <input class="form-control border-end-0 border rounded-pill" type="search" value="search" >
+          </div>
+      </div>
+  </div>
+</div>
 <br>
+<!-- #endregion -->
 <div class="container md">
 
 <!-- Grid of images -->
@@ -18,16 +30,16 @@
   <!-- IMAGES -->
   <div class="row d-flex justify-content-around ">
       <div class="col-xl-3 ">
-        <img src="/assets/img_lights.jpg" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal">
+        <img src="/assets/img_lights.jpg" id="img_lights" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal">
       </div>
       <div class="col-xl-3">
-        <img src="/assets/img_mountains.jpg" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal">
+        <img src="/assets/img_mountains.jpg" id="img_mountains" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal">
       </div>
       <div class="col-xl-3">
-        <img src="/assets/img_nature.jpg" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal">
+        <img src="/assets/img_nature.jpg" id="img_nature" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal">
       </div>
       <div class="col-xl-3">
-        <img src="/assets/img_snow.jpg" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal">
+        <img src="/assets/img_snow.jpg" id="img_snow" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal">
       </div>
   </div>
 <!-- #endregion -->
